@@ -76,6 +76,7 @@ header {
     transform-origin: left;
     transform: scaleX(1);
     box-shadow: 0.2rem 0.2rem 0.2rem var(--bg);
+    box-shadow: 0 0 1rem aqua;
 }
 
 .logo-responsive a {
@@ -135,6 +136,7 @@ header {
 .navbar a p:hover::after {
     transform: translateY(0);
     opacity: 1;
+    box-shadow: 0 0 1rem aqua;
 }
 
 .icon {
